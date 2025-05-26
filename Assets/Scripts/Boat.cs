@@ -1,7 +1,7 @@
 
 using UnityEngine;
 
-public class AsteroidMovement : MonoBehaviour
+public class Boat : MonoBehaviour
 {
     public float speed = 2f;
 
