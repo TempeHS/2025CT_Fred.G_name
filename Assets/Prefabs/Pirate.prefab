@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1182485244736594283}
   - component: {fileID: 4600420266011611309}
   - component: {fileID: 165830586032563910}
-  - component: {fileID: 6665447905189009140}
+  - component: {fileID: 2372812098765969133}
   m_Layer: 0
   m_Name: Pirate
   m_TagString: Untagged
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 4438769785877107108, guid: 070c53f36a3a34e259ea1c38deb34fc0, type: 3}
   speed: 20
---- !u!114 &6665447905189009140
+--- !u!114 &2372812098765969133
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,6 +158,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4664919840624233578}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b18f26092f32de47a5ccde6a0cb5983, type: 3}
+  m_Script: {fileID: 11500000, guid: ff5ca0d44a6465346a7767eb09379d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
