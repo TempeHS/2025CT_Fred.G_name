@@ -11,9 +11,16 @@ public class Boat : MonoBehaviour
 
     private float hoverTime = 0f;
     private bool hovering = false;
+    private float exitTimer = 0f;
+    private bool exited = false;
+
+
+    private SpriteRenderer sr;
 
     void Start()
     {
+        sr = GetComponent<SpriteRenderer>();
+
         direction = Random.insideUnitCircle.normalized;
         cam = Camera.main;
         camHeight = 2f * cam.orthographicSize;
@@ -37,11 +44,38 @@ public class Boat : MonoBehaviour
         {
             hoverTime += Time.deltaTime;
             if (hoverTime >= 3f)
+            {
                 Destroy(gameObject);
+            }
+            exitTimer = 0f;
+            exited = false;
+        }
+
+        else
+        {
+            if (!exited)
+            {
+                // Start the 1-second exit delay
+                exited = true;
+                exitTimer = 0f;
+            }
+
+            exitTimer += Time.deltaTime;
+
+            if (exitTimer >= 2)
+            {
+                hoverTime = 0f;
+            }
+
+
+        }
+        if (hoverTime >= 1)
+        {
+            sr.color = Color.green;
         }
         else
         {
-            hoverTime = 0f;
+            sr.color = Color.yellow;
         }
     }
 
