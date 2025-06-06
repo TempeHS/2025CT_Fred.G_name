@@ -21,9 +21,10 @@ public class ObjectMovement : MonoBehaviour
 
         if (Vector3.Distance(transform.position, target.position) < 0.1f)
         {
+            reachedtarget = true;
             return;
         }
-        if reachedtarget = true;
+        if (reachedtarget == true)
         {
             Destroy(gameObject);
             score++;
