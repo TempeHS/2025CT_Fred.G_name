@@ -14,6 +14,8 @@ public class Boat : MonoBehaviour
     private float exitTimer = 0f;
     private bool exited = false;
 
+    private static int BoatScore = 0;
+
 
     private SpriteRenderer sr;
 
@@ -46,6 +48,9 @@ public class Boat : MonoBehaviour
             if (hoverTime >= 3f)
             {
                 Destroy(gameObject);
+                BoatScore++;
+            Debug.Log("Boat Score is: " + BoatScore);
+            return;
             }
             exitTimer = 0f;
             exited = false;

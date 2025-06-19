@@ -5,7 +5,7 @@ public class ObjectMovement : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private float speed = 5f;
     private bool reachedtarget = false;
-    private int score = 0;
+    private static int score = 0;
 
     private void Update()
     {
