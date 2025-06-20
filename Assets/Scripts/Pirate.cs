@@ -9,13 +9,13 @@ public class ObjectMovement : MonoBehaviour
 
     private void Update()
     {
-        // Check if a target is assigned.  If not, don't move.
+       
         if (target == null)
         {
             return;
         }
 
-        // Use MoveTowards to smoothly move the object towards the target
+       
         transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
 
