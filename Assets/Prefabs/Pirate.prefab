@@ -162,6 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff5ca0d44a6465346a7767eb09379d4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathEffectPrefab: {fileID: 6626496886549640239, guid: 282cc93e031b8594399bdd71c34ffd57, type: 3}
 --- !u!50 &1455056188986039639
 Rigidbody2D:
   serializedVersion: 4
