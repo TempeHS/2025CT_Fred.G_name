@@ -5,17 +5,14 @@ public class ObjectMovement : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private float speed = 5f;
     private bool reachedtarget = false;
-    private static int score = 0;
+    public static int score = 0;
 
     private void Update()
-    {
-       
+    {  
         if (target == null)
         {
             return;
-        }
-
-       
+        } 
         transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
 
