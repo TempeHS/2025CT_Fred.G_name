@@ -49,7 +49,7 @@ public class Boat : MonoBehaviour
             {
                 Destroy(gameObject);
                 BoatScore++;
-                ObjectMovement.score++;
+                ObjectMovement.score += 2;
             Debug.Log("Boat Score is: " + BoatScore);
             return;
             }
