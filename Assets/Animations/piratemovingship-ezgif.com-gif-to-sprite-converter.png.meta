@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8ed026a66ff684f09a8956bc6724b783
+guid: e7c6da3695599934ba156ef4e4136c9b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: friendlyboatew-ezgif.com-gif-to-sprite-converter_0
+      name: piratemovingship-ezgif.com-gif-to-sprite-converter_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12a7b2158aab20e40b97c1bf85d1a564
-      internalID: -417959707
+      spriteID: b5eafdec90753d84e8842b7dd717fee3
+      internalID: 1925866541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: friendlyboatew-ezgif.com-gif-to-sprite-converter_1
+      name: piratemovingship-ezgif.com-gif-to-sprite-converter_1
       rect:
         serializedVersion: 2
         x: 1024
@@ -145,14 +145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c5d3e6342b150d439c2b9c638f6f34f
-      internalID: 354216792
+      spriteID: b260814402ced304fb6ee2d203c32e25
+      internalID: 1953169276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: friendlyboatew-ezgif.com-gif-to-sprite-converter_2
+      name: piratemovingship-ezgif.com-gif-to-sprite-converter_2
       rect:
         serializedVersion: 2
         x: 2048
@@ -166,14 +166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31dc24b202a62da49b259175e8c4bd96
-      internalID: 856212388
+      spriteID: bb8e7da177f71fd49ad2db8218814cc2
+      internalID: -506297012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: friendlyboatew-ezgif.com-gif-to-sprite-converter_3
+      name: piratemovingship-ezgif.com-gif-to-sprite-converter_3
       rect:
         serializedVersion: 2
         x: 3072
@@ -187,14 +187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c751e041958c9247a04e6adb5f04187
-      internalID: -103356102
+      spriteID: 8977e3f0519548d418e44d1a9e3905d8
+      internalID: -1277792063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: friendlyboatew-ezgif.com-gif-to-sprite-converter_4
+      name: piratemovingship-ezgif.com-gif-to-sprite-converter_4
       rect:
         serializedVersion: 2
         x: 4096
@@ -208,8 +208,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 399172b19b664f0478c451e3f904e332
-      internalID: 299739554
+      spriteID: 8923f78657330164c9b3e5eb55931b77
+      internalID: -1391862748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piratemovingship-ezgif.com-gif-to-sprite-converter_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0534aeab89efd3a4889f8e7c97a3a979
+      internalID: -1515871079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: piratemovingship-ezgif.com-gif-to-sprite-converter_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 0
+        width: 1024
+        height: 1024
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f97be86f6561314c8a742a993ac464b
+      internalID: 1168636446
       vertices: []
       indices: 
       edges: []
@@ -225,11 +267,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      friendlyboatew-ezgif.com-gif-to-sprite-converter_0: -417959707
-      friendlyboatew-ezgif.com-gif-to-sprite-converter_1: 354216792
-      friendlyboatew-ezgif.com-gif-to-sprite-converter_2: 856212388
-      friendlyboatew-ezgif.com-gif-to-sprite-converter_3: -103356102
-      friendlyboatew-ezgif.com-gif-to-sprite-converter_4: 299739554
+      piratemovingship-ezgif.com-gif-to-sprite-converter_0: 1925866541
+      piratemovingship-ezgif.com-gif-to-sprite-converter_1: 1953169276
+      piratemovingship-ezgif.com-gif-to-sprite-converter_2: -506297012
+      piratemovingship-ezgif.com-gif-to-sprite-converter_3: -1277792063
+      piratemovingship-ezgif.com-gif-to-sprite-converter_4: -1391862748
+      piratemovingship-ezgif.com-gif-to-sprite-converter_5: -1515871079
+      piratemovingship-ezgif.com-gif-to-sprite-converter_6: 1168636446
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
