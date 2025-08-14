@@ -15,7 +15,7 @@ public class RockSpawner : MonoBehaviour
     private IEnumerator spawnRock(float interval, GameObject rock)
     {
         yield return new WaitForSeconds(interval);
-        GameObject newRock = Instantiate(rock, new Vector3(Random.Range(-5f, 5), Random.Range(-6f, 6), 0), Quaternion.identity);
+        GameObject newRock = Instantiate(rock, new Vector3(Random.Range(-5f, 7), Random.Range(-4f, 4), 0), Quaternion.identity);
         StartCoroutine(spawnRock(interval, rock));
     }
     // Update is called once per frame
