@@ -50,8 +50,8 @@ public class Boat : MonoBehaviour
                 Destroy(gameObject);
                 BoatScore++;
                 ObjectMovement.score += 5;
-            Debug.Log("Boat Score is: " + BoatScore);
-            return;
+                Debug.Log("Boat Score is: " + BoatScore);
+                return;
             }
             exitTimer = 0f;
             exited = false;
