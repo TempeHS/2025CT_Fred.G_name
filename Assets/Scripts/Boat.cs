@@ -88,7 +88,19 @@ public class Boat : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Cursor"))
-            hovering = true;
+        {
+            hovering = true; 
+        }
+
+
+
+        if (other.gameObject.tag == "rock")
+        {
+
+            Destroy(gameObject);
+            ObjectMovement.score -= 2;
+        }
+
     }
 
     void OnTriggerExit2D(Collider2D other)

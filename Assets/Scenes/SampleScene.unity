@@ -1131,6 +1131,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1736694336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1736694337}
+  m_Layer: 0
+  m_Name: explosion animations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1736694337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736694336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.0112276, y: -3.3461268, z: 0.11159219}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1771052810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1307,7 +1338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asteroidPrefab: {fileID: 9196238490616063729, guid: 5e8aa8270bd6b764fb60b3a945ed30e9, type: 3}
-  spawnInterval: 4
+  spawnInterval: 1
 --- !u!4 &1897278791
 Transform:
   m_ObjectHideFlags: 0
@@ -1478,6 +1509,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2459174973240429273, guid: 070c53f36a3a34e259ea1c38deb34fc0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd8fa67f71868ee48b445796536f78b8, type: 3}
+    - target: {fileID: 4438769785877107108, guid: 070c53f36a3a34e259ea1c38deb34fc0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4438769785877107108, guid: 070c53f36a3a34e259ea1c38deb34fc0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 4438769785877107108, guid: 070c53f36a3a34e259ea1c38deb34fc0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.56
@@ -1693,3 +1736,4 @@ SceneRoots:
   - {fileID: 1914791658}
   - {fileID: 887740647}
   - {fileID: 873658113}
+  - {fileID: 1736694337}
