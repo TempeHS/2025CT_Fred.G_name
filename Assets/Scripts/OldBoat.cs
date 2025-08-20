@@ -1,9 +1,9 @@
+
 using UnityEngine;
 
-public class Boat : MonoBehaviour
+public class OldBoat : MonoBehaviour
 {
     public float speed = 2f;
-    public Transform target; // Assign this in the Inspector
 
     private Vector2 direction;
     private Camera cam;
@@ -16,8 +16,8 @@ public class Boat : MonoBehaviour
 
     private static int BoatScore = 0;
 
+
     private SpriteRenderer sr;
-    private bool movingToTarget = false; // Track if moving to target
 
     void Start()
     {
@@ -31,22 +31,6 @@ public class Boat : MonoBehaviour
 
     void Update()
     {
-        if (movingToTarget && target != null)
-        {
-            // Move towards the target
-            Vector3 targetPos = target.position;
-            Vector3 moveDir = (targetPos - transform.position).normalized;
-            transform.position += moveDir * speed * Time.deltaTime;
-
-            // Optionally, stop when close to target
-            if (Vector3.Distance(transform.position, targetPos) < 0.1f)
-            {
-                movingToTarget = false;
-                // Optionally, do something when reached
-            }
-            return;
-        }
-
         transform.Translate(direction * speed * Time.deltaTime);
 
         Vector3 pos = transform.position;
@@ -63,15 +47,16 @@ public class Boat : MonoBehaviour
             hoverTime += Time.deltaTime;
             if (hoverTime >= 3f)
             {
-                movingToTarget = true; // Start moving to target
-                // BoatScore++;
-                // ObjectMovement.score += 5;
-                // Debug.Log("Boat Score is: " + BoatScore);
+                Destroy(gameObject);
+                BoatScore++;
+                ObjectMovement.score += 5;
+                Debug.Log("Boat Score is: " + BoatScore);
                 return;
             }
             exitTimer = 0f;
             exited = false;
         }
+
         else
         {
             if (!exited)
@@ -87,12 +72,8 @@ public class Boat : MonoBehaviour
             {
                 hoverTime = 0f;
             }
-        }
-        if (Vector3.Distance(transform.position, target.position) < 0.1f)
-        {
-            Destroy(gameObject);
-            ObjectMovement.score += 5;
-            return;
+
+
         }
         if (hoverTime >= 1)
         {
@@ -103,6 +84,7 @@ public class Boat : MonoBehaviour
             sr.color = Color.yellow;
         }
     }
+
     void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Cursor"))
@@ -110,11 +92,15 @@ public class Boat : MonoBehaviour
             hovering = true; 
         }
 
+
+
         if (other.gameObject.tag == "rock")
         {
+
             Destroy(gameObject);
             ObjectMovement.score -= 2;
         }
+
     }
 
     void OnTriggerExit2D(Collider2D other)

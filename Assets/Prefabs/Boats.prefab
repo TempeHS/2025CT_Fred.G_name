@@ -128,6 +128,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+  target: {fileID: 4438769785877107108, guid: 070c53f36a3a34e259ea1c38deb34fc0, type: 3}
 --- !u!95 &3420737289349939041
 Animator:
   serializedVersion: 5

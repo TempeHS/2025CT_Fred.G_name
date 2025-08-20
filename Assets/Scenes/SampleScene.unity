@@ -860,7 +860,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 153f29f551e79be43ac1ed59ee0895b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RockInterval: 1
+  RockInterval: 5
   RockPrefab: {fileID: 1768742527046172989, guid: 809e1eaf9dd4d1c4da168237e98aeee2, type: 3}
 --- !u!4 &887740647
 Transform:
