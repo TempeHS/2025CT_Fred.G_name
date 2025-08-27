@@ -94,13 +94,13 @@ public class Boat : MonoBehaviour
             ObjectMovement.score += 5;
             return;
         }
-        if (hoverTime >= 1)
+        if (hoverTime >= 2.99)
         {
             sr.color = Color.green;
         }
         else
         {
-            sr.color = Color.yellow;
+            sr.color = Color.white;
         }
     }
     void OnTriggerEnter2D(Collider2D other)

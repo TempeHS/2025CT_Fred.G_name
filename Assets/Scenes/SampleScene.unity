@@ -123,6 +123,38 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &174068593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 174068594}
+  m_Layer: 0
+  m_Name: Bar above boats to show hover progress. Need a sprite with 3 frames for
+    each second of progress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &174068594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 174068593}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.674263, y: -1.3924824, z: 0.027552458}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1338,7 +1370,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   asteroidPrefab: {fileID: 9196238490616063729, guid: 5e8aa8270bd6b764fb60b3a945ed30e9, type: 3}
-  spawnInterval: 1
+  spawnInterval: 4
 --- !u!4 &1897278791
 Transform:
   m_ObjectHideFlags: 0
@@ -1565,6 +1597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Harbour
       objectReference: {fileID: 0}
+    - target: {fileID: 6081559837026587778, guid: 070c53f36a3a34e259ea1c38deb34fc0, type: 3}
+      propertyPath: m_TagString
+      value: Harbour
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1737,3 +1773,4 @@ SceneRoots:
   - {fileID: 887740647}
   - {fileID: 873658113}
   - {fileID: 1736694337}
+  - {fileID: 174068594}
