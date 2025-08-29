@@ -88,7 +88,8 @@ public class Boat : MonoBehaviour
                 hoverTime = 0f;
             }
         }
-        if (Vector3.Distance(transform.position, target.position) < 0.1f)
+        if (Vector3.Distance(transform.position, target.position) < 1f) // f is how close to the harbour when destoyed? too low can cause glitch
+        //&& to if statemt, random boats with no hovertime can go to harbour but can keep this for luck.
         {
             Destroy(gameObject);
             ObjectMovement.score += 5;

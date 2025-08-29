@@ -20,7 +20,9 @@ public class Wreckage : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             Destroy(gameObject);
+            PlayerMovement.bombs += 1;
             ObjectMovement.score += 1;
+            
         }
     }
 }
