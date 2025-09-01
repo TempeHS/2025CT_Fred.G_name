@@ -1185,7 +1185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectToSpawn: {fileID: 4664919840624233578, guid: 26a7c20cafc78e1458384e12057cd122, type: 3}
-  spawnRate: 0.4
+  spawnRate: 0.25
   randomTimeFactor: 1
 --- !u!1 &1204897994
 GameObject:
