@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: -7741349113128685996}
   - component: {fileID: 3420737289349939041}
   - component: {fileID: 4789578312596944066}
+  - component: {fileID: -4483042924313987242}
   m_Layer: 0
   m_Name: Boats
   m_TagString: Untagged
@@ -280,3 +281,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3589783, y: 1.3680439}
   m_EdgeRadius: 0
+--- !u!114 &-4483042924313987242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9196238490616063729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ba33b0b2f3e8a44ebe7318011acf7b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
