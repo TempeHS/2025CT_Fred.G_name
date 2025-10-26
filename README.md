@@ -1,10 +1,10 @@
 # Project Title
 
-My Game
+Lighthouse Simulator
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+An in-depth paragraph about your project and overview of use. My game is about a lighthouse keeper protecting a town from pirates while also guiding helpful ships with the lighthouse beam. Rocks arise from the sea that can destroy boats, so you must collect treasure from pirates to get explosives to destroy these rock obstacles. There is also a patrol boat which picks up the pirate wreckage treasure.
 
 ## Getting Started
 
