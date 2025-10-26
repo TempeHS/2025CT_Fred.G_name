@@ -1,6 +1,6 @@
 # Project Title
 
-Lighthouse Simulator
+**Lighthouse Simulator**
 
 ## Description
 
