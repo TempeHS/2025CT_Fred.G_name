@@ -1,13 +1,12 @@
-# Project Title
 
-**Lighthouse Simulator**
+# **Lighthouse Simulator**
 
 ## General Information
 
 My game is about a lighthouse keeper protecting a town from pirates while also guiding helpful ships with the lighthouse beam. Rocks arise from the sea that can destroy boats, so you must collect treasure from pirates to get explosives to destroy these rock obstacles. There is also a patrol boat which picks up the pirate wreckage treasure.
 ## Player Objective
 get a high score by killing pirates and guiding ships
-### Controls
+## Controls
 Hover over boats within radius of lighthouse beam (circle that follows cursor) and interact within that range; click pirates and hover over boats. Also control the patrol boat with WASD to pick up pirate wreckage (dropped after they are destroyed on click) to recieve explosives.
 ## Challeng
 : Mouse accuracy, reaction time and multitasking.
