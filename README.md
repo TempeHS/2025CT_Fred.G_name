@@ -19,6 +19,8 @@ pirate collision, boat spawner and movement, hitbox with harbour glitching becau
 ## Settings/public variables 
 Rock spawn rate, boat speed, pirate speed, pirate spawn rate, pirate spawn rate randomness.
 
+## Things to be added next
+Features that I would like to add next is weather events like darkness and storms, more complex movement with acceleration, sharks that attack boats for increased challenge, difficulties, and more animations. The game already functions as intended, but these features would make it more exciting and engaging.
 # Code Snippets
 
 ### Player Boat
