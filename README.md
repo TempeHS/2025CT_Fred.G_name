@@ -19,6 +19,10 @@ pirate collision, boat spawner and movement, hitbox with harbour glitching becau
 ## Settings/public variables
 Rock spawn rate, boat speed, pirate speed, pirate spawn rate, pirate spawn rate randomness.
 
+<img width="667" height="480" alt="image" src="https://github.com/user-attachments/assets/b0ace424-8d6c-4638-b497-1fdf75296b24" />
+
+
+
 
 
 
