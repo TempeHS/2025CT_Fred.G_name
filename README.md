@@ -2,21 +2,21 @@
 # **Lighthouse Simulator**
 https://github.com/user-attachments/assets/b0cd55f8-2e7c-47c1-8daf-229177e1d2b6
 # General Information
-## Story/Setting
+## Story/Setting 📖
 My game is about a lighthouse keeper protecting a town from pirates while also guiding helpful ships with the lighthouse beam. Rocks arise from the sea that can destroy boats, so you must collect treasure from pirates to get explosives to destroy these rock obstacles. There is also a patrol boat which picks up the pirate wreckage treasure.
-## Player Objective
+## Player Objective 🥅
 get a high score by killing pirates and guiding ships.
-## Controls
+## Controls ⌨️
 Hover over boats within radius of lighthouse beam (circle that follows cursor) and interact within that range; click pirates and hover over boats. Also control the patrol boat with WASD to pick up pirate wreckage (dropped after they are destroyed on click) to recieve explosives.
-## Challenge
+## Challenge 👊
 Mouse accuracy, reaction time and multitasking.
-## Inspirations
+## Inspirations ⭐
 My game is inspired by aim trainers and asteroids atari.
 
-## Issues
+## Issues ❎
 pirate collision, boat spawner and movement, hitbox with harbour glitching because too small. The boats and pirates would often glitch with the harbour, being stuck insdide of it, so to fix this I just made the hitbox larger which fixed the issue. Another issue I had was with the score, when it would increase greatly whilst hovering over pirates; this is because the part of the code increasing the score was meant to be part of the if statement with on destroy, but it wasn't. To fix it I made it only increase on destroy so score increased once boat pirate destroyed. I also had some other issues which copilot helped me diagnose and fix.
 
-## Settings/public variables
+## Settings/public variables 
 Rock spawn rate, boat speed, pirate speed, pirate spawn rate, pirate spawn rate randomness.
 
 # Code Snippets
@@ -37,7 +37,9 @@ The boat starts moving towards the target only once you have hovered over it for
 
 
 
-
+## authors
+💻 Developer: Frederic Garran
+🎨 Sprites: Audrey Gilmour 
 
 bibliography:
 *[https://www.youtube.com/watch?v=SELTWo1XZ0c]
