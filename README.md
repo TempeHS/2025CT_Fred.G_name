@@ -1,6 +1,6 @@
 
 # **Lighthouse Simulator**
-
+https://github.com/user-attachments/assets/b0cd55f8-2e7c-47c1-8daf-229177e1d2b6
 # General Information
 ## Story/Setting
 My game is about a lighthouse keeper protecting a town from pirates while also guiding helpful ships with the lighthouse beam. Rocks arise from the sea that can destroy boats, so you must collect treasure from pirates to get explosives to destroy these rock obstacles. There is also a patrol boat which picks up the pirate wreckage treasure.
@@ -32,7 +32,7 @@ The boat starts moving towards the target only once you have hovered over it for
 
 
 
-https://github.com/user-attachments/assets/b0cd55f8-2e7c-47c1-8daf-229177e1d2b6
+
 
 
 
