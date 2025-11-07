@@ -30,6 +30,10 @@ Rock spawn rate, boat speed, pirate speed, pirate spawn rate, pirate spawn rate 
 
 
 
+https://github.com/user-attachments/assets/b0cd55f8-2e7c-47c1-8daf-229177e1d2b6
+
+
+
 
 
 * [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
