@@ -37,9 +37,9 @@ https://github.com/user-attachments/assets/b0cd55f8-2e7c-47c1-8daf-229177e1d2b6
 
 
 bibliography:
-[https://www.youtube.com/watch?v=SELTWo1XZ0c]
-[https://www.youtube.com/watch?v=K1xZ-rycYY8&t=1s]
-[https://www.youtube.com/watch?v=hkaysu1Z-N8&t=643s]
+*[https://www.youtube.com/watch?v=SELTWo1XZ0c]
+*[https://www.youtube.com/watch?v=K1xZ-rycYY8&t=1s]
+*[https://www.youtube.com/watch?v=hkaysu1Z-N8&t=643s]
 
 * [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 * [TempeHS Unity template](https://github.com/TempeHS/TempeHS_Unity_DevContainer)
